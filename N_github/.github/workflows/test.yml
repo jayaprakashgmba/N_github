@@ -2,7 +2,7 @@ name: UAT Br to Fullcopy Deploy
 on: 
   push:
     branches:
-      - 'UAT'
+      - 'QA'
 
 jobs:
   SFDX-CLI-Deploy:
